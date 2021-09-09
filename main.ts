@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     Dist = sonar.ping(
     DigitalPin.P2,
     DigitalPin.P16,
